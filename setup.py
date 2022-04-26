@@ -33,7 +33,6 @@
 # IN THE SOFTWARE.
 
 import setuptools
-from unicorn_binance_trailing_stop_loss.manager import BinanceTrailingStopLossManager
 
 with open("README.md", "r") as fh:
     long_description = fh.read()

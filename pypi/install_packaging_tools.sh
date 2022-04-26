@@ -3,11 +3,10 @@
 #
 # File: pypi/install_packaging_tools.sh
 #
-# Part of ‘UNICORN Binance Trailing Stop Loss’
+# Part of ‘ubtsl’
 # Project website: https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html
-# Github: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-trailing-stop-loss
-# Documentation: https://unicorn-binance-trailing-stop-loss.docs.lucit.tech
-# PyPI: https://pypi.org/project/unicorn-binance-trailing-stop-loss
+# Github: https://github.com/LUCIT-Systems-and-Development/ubtsl
+# PyPI: https://pypi.org/project/ubtsl
 #
 # Author: LUCIT Systems and Development
 #

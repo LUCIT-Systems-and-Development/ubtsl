@@ -3,11 +3,10 @@
 #
 # File: pypi/create_wheel.sh
 #
-# Part of ‘UNICORN Binance Trailing Stop Loss’
+# Part of ‘ubtsl’
 # Project website: https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html
-# Github: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-trailing-stop-loss
-# Documentation: https://unicorn-binance-trailing-stop-loss.docs.lucit.tech
-# PyPI: https://pypi.org/project/unicorn-binance-trailing-stop-loss
+# Github: https://github.com/LUCIT-Systems-and-Development/ubtsl
+# PyPI: https://pypi.org/project/ubtsl
 #
 # Author: LUCIT Systems and Development
 #
@@ -33,15 +32,4 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-security-check() {
-    echo -n "Did you change the version in \`CHANGELOG.md\`, \`sphinx/source/conf.py\` and \`unicorn_binance_trailing_stop_loss/manager.py\`? [yes|NO] "
-    local SURE
-    read SURE
-    if [ "$SURE" != "yes" ]; then
-        exit 1
-    fi
-    echo "ok, lets go ..."
-}
-
-security-check
 python3 setup.py bdist_wheel sdist
