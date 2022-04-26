@@ -1,0 +1,6 @@
+# Changes must also be made in the following files:
+# ./environment.yml
+# ./setup.py
+# https://github.com/conda-forge/ubtsl-feedstock/blob/main/recipe/meta.yaml
+
+unicorn-binance-trailing-stop-loss
