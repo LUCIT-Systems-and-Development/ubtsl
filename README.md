@@ -16,6 +16,8 @@ This is just an alias module with a short name for the
 ['unicorn_binance_trailing_stop_loss`](https://github.com/LUCIT-Systems-and-Development/unicorn-binance-trailing-stop-loss) 
 module to be able to use the cli interface as follows:
 
+Please use the [issue tracker](https://github.com/LUCIT-Systems-and-Development/unicorn-binance-trailing-stop-loss/issues) of unicorn-binance-trailing-stop-loss for bug reports and feature requests.
+
 ## Linux/Mac:
 
 ```
