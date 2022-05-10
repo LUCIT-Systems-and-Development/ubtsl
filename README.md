@@ -21,13 +21,13 @@ Please use the [issue tracker of unicorn-binance-trailing-stop-loss](https://git
 ## Linux/Mac:
 
 ```
-$ py -m ubtsl --test notification
+$ py -m ubtsl --help
 ```
 
 ## Windows:
 
 ```
-$ python3 -m ubtsl --test notification
+$ python3 -m ubtsl --help
 ```
 
 ## This package will be installed automatically together with:
